@@ -1,0 +1,12 @@
+package set_07_project_01;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] arr = { 2,3,4,3,6,7,6,8,2,9 };
+		
+		
+	}
+
+}

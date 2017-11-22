@@ -1,0 +1,14 @@
+package set_00_project_07;
+
+public abstract class Food {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	void eat() {
+		System.out.println("This food is great");
+	}
+	
+}

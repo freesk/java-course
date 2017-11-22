@@ -1,0 +1,28 @@
+package set_00_project_05;
+
+import java.math.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		BigDecimal n = new BigDecimal("1234567890123456890");
+		
+		System.out.println(formatNumber(n));
+	}
+	
+	private static String formatNumber(BigDecimal n, boolean isCurrency) {
+		
+		String res = BigDecimal.toString(num);
+		
+		if(isCurrency) {
+			
+		}
+		
+		
+		
+		return res;
+	}
+
+}

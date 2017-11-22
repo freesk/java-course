@@ -1,0 +1,5 @@
+package set_00_project_10;
+
+public interface Pair {
+
+}

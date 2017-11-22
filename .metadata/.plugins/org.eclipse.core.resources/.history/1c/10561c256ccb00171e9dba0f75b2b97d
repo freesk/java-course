@@ -1,0 +1,16 @@
+package set_00_project_05;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println(formatNumber(1234567.892));
+	}
+	
+	private static String formatNumber(double num, boolean isCurrency) {
+		String res = Double.toString(num);
+		
+		return res;
+	}
+
+}

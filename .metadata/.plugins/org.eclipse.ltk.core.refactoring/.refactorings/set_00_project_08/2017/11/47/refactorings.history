@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;set_00_project_08.Bycycle&apos; to &apos;Bicycle&apos;&#x0A;- Original project: &apos;set_00_project_08&apos;&#x0A;- Original element: &apos;set_00_project_08.Bycycle&apos;&#x0A;- Renamed element: &apos;set_00_project_08.Bicycle&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Bycycle&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;set_00_project_08{Bycycle.java[Bycycle" matchStrategy="1" name="Bicycle" qualified="false" references="true" similarDeclarations="false" stamp="1511252151884" textual="false" version="1.0"/>
+</session>

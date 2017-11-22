@@ -1,0 +1,14 @@
+package set_00_project_06;
+
+public class Aircraft {
+
+	int passengers;
+	double cruiseSpeed;
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
