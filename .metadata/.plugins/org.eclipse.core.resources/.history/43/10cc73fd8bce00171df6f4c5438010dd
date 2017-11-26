@@ -1,7 +1,0 @@
-package set_00_project_07;
-
-import set_00_project_07.Food; 
-
-public class Potpie extends Food {
-
-}
