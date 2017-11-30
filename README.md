@@ -1,1 +1,1 @@
-Solutions for a Java course which is taught at Polish Japanese Academy
+Solutions for a Java course (PJA 2017)
