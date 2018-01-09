@@ -21,9 +21,9 @@ public class Main {
 	            john.getName() + "'s cars: " +
 	            john.getTotalPrice());
 	    System.out.println("Does " + john.getName() +
-	            " have a ford? " + john.hasCar("ford"));
+	            " have a Ford? " + john.hasCar("Ford"));
 	    System.out.println("Does " + john.getName() +
-	            " have a bmw?  " + john.hasCar("bmw"));
+	            " have a BMW?  " + john.hasCar("BMW"));
 	    System.out.println(john.getName() + "'s most " +
 	            "expensive car is " + john.mostExpensive());
 
