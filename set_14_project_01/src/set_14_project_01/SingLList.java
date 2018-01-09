@@ -57,29 +57,27 @@ public class SingLList {
 	}
 	
 	public void removeOdd() {
-		Node current;
-		
 		if(empty()) {
 			System.out.print("Error: The list is empty");
 		} else {
+			Node current;
+			// Shift head element till it is even 
+			while(isOdd(head.data)) head = head.next;
+			
+			//Assign to a temp variable
 			current = head;
 			
-			if(isOdd(head.data)) {
-				head = head.next;
-			}
-			
-			
+			// Spin till it reaches the last elemnt in the list
 			while(current.next != null) {
 					
-				if(isOdd(current.next.data)) {
+				if(isOdd(current.next.data))
+					// Replace the next element with the next next one
 					current.next = current.next.next;
-				}
-					
-				if(current.next != null)
-					current = current.next;
+				else 
+					// Shift current to keep the while running
+					current = current.next; 
 					
 			}	
-
 		
 				
 		}	
