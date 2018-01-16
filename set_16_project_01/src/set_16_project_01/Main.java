@@ -5,14 +5,13 @@ import java.io.FileReader;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.lang.IllegalArgumentException;
+
 import set_16_project_01.RPNStack;
 
 
 public class Main {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
+	public static void main(String[] args) {		
 //		System.out.println(System.getProperty("user.dir"));
 		
 		String data = readFile("data.txt");
