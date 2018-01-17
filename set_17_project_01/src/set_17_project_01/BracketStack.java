@@ -1,6 +1,6 @@
 package set_17_project_01;
 
-import java.lang.NullPointerException;
+import java.lang.RuntimeException;
 
 public class BracketStack {
 
@@ -23,9 +23,9 @@ public class BracketStack {
 	
 	public char pop() {
 		
-		char c = ' ';
+		char c;
 		
-		if(empty()) return c; 
+		if(empty()) throw new RuntimeException(); 
 		
 		c = top.c;
 		top = top.next;

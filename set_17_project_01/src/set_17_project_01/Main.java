@@ -7,6 +7,8 @@ import java.io.IOException;
 import java.lang.RuntimeException;
 import java.lang.IllegalArgumentException;
 
+import set_17_project_01.BracketStack;
+
 public class Main {
 
 	public static void main(String[] args) {
@@ -58,7 +60,7 @@ public class Main {
 		else if(c == '{') return '}';
 		else if(c == ']') return '[';
 		else if(c == '[') return ']';
-		else throw new IllegalArgumentException("ERROR. " + c + " has no oppsite character");
+		else throw new IllegalArgumentException("ERROR. " + c + " has no opposite character");
 	}
 	
 	public static String readFile(String path) {
@@ -82,12 +84,12 @@ public class Main {
 		    	br.close();
 		    	
 		    } catch(IOException e) {
-		    	System.out.println("Oops. IOException error.");
+		    	System.out.println("Oops. IOException");
 		    }
 		    
 		    everything = sb.toString();
 		} catch(FileNotFoundException e) {
-			System.out.println("Oops. FileNotFoundException error.");
+			System.out.println("Oops. FileNotFoundException");
 		}
 		
 		return everything;
