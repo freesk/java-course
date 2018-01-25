@@ -10,8 +10,22 @@ import java.lang.IllegalArgumentException;
 import set_17_project_01.BracketStack;
 
 public class Main {
+	
+	private static char getOpposite(char c) {
+		if	   (c == ')') return '(';
+		else if(c == '(') return ')';
+		else if(c == '}') return '{';
+		else if(c == '{') return '}';
+		else if(c == ']') return '[';
+		else if(c == '[') return ']';
+		else throw new IllegalArgumentException("ERROR. " + c + " has no opposite character");
+	}
 
 	public static void main(String[] args) {
+		
+		
+
+		
 		
 		String data = readFile("data.txt");
 		
@@ -21,6 +35,27 @@ public class Main {
 		
 		int i, j;
 		char c, head;
+		
+		for(i = 1; i < 6; ++i) {
+			if(i == 2) continue;
+			System.out.print(i+" ");
+			if(i == 4 ) break;
+		}
+		
+		System.out.println("");
+		
+		String s1 = "M", s2 = "H";
+		
+		s1 = s2;
+		
+		System.out.println(s1);
+		System.out.println(s2);
+		
+		String[][] a = { null, {"A", null, "U"}, {"W"}};
+		
+//		System.out.println(a[0][1].length());
+		System.out.println(a[1][0].length());
+		
 				
 		try {
 			// Go over every line 
@@ -53,15 +88,7 @@ public class Main {
 
 	}
 	
-	private static char getOpposite(char c) {
-		if	   (c == ')') return '(';
-		else if(c == '(') return ')';
-		else if(c == '}') return '{';
-		else if(c == '{') return '}';
-		else if(c == ']') return '[';
-		else if(c == '[') return ']';
-		else throw new IllegalArgumentException("ERROR. " + c + " has no opposite character");
-	}
+
 	
 	public static String readFile(String path) {
 		BufferedReader br;
